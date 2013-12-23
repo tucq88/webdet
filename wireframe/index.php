@@ -26,8 +26,99 @@
     </nav>
     <div id="main-content">
         <div class="row">
-            <div class="col-lg-2">
-                
+            <div class="col-lg-3">
+                <article>
+                    <h3>Category</h3>
+                    <ul>
+                    	<li><a href=""><img src="" alt="" />Tool 1</a></li>
+                    	<li><a href=""><img src="" alt="" />Tool 2</a></li>
+                    	<li><a href=""><img src="" alt="" />Tool 3</a></li>
+                    	<li><a href=""><img src="" alt="" />Tool 4</a></li>
+                    	<li><a href=""><img src="" alt="" />Tool 5</a></li>
+                    </ul>
+                </article>
+                <article>
+                    <h3>Category</h3>
+                    <ul>
+                    	<li><a href=""><img src="" alt="" />Tool 1</a></li>
+                    	<li><a href=""><img src="" alt="" />Tool 2</a></li>
+                    	<li><a href=""><img src="" alt="" />Tool 3</a></li>
+                    	<li><a href=""><img src="" alt="" />Tool 4</a></li>
+                    	<li><a href=""><img src="" alt="" />Tool 5</a></li>
+                    	<li><a href=""><img src="" alt="" />Tool 6</a></li>
+                    	<li><a href=""><img src="" alt="" />Tool 7</a></li>
+                    </ul>
+                </article>
+            </div>
+            <div class="col-lg-3">
+                <article>
+                <h3>Category</h3>
+                <ul>
+                	<li><a href=""><img src="" alt="" />Tool 1</a></li>
+                	<li><a href=""><img src="" alt="" />Tool 2</a></li>
+                	<li><a href=""><img src="" alt="" />Tool 3</a></li>
+                	<li><a href=""><img src="" alt="" />Tool 4</a></li>
+                	<li><a href=""><img src="" alt="" />Tool 5</a></li>
+                	<li><a href=""><img src="" alt="" />Tool 6</a></li>
+                	<li><a href=""><img src="" alt="" />Tool 7</a></li>
+                	<li><a href=""><img src="" alt="" />Tool 8</a></li>
+                	<li><a href=""><img src="" alt="" />Tool 9</a></li>
+                </ul>
+                </article>
+                <article>
+                    <h3>Category</h3>
+                    <ul>
+                    	<li><a href=""><img src="" alt="" />Tool 1</a></li>
+                    	<li><a href=""><img src="" alt="" />Tool 2</a></li>
+                    	<li><a href=""><img src="" alt="" />Tool 3</a></li>
+                    	<li><a href=""><img src="" alt="" />Tool 4</a></li>
+                    	<li><a href=""><img src="" alt="" />Tool 5</a></li>
+                    </ul>
+                </article>
+            </div>
+            <div class="col-lg-3">
+                <article>
+                <h3>Category</h3>
+                <ul>
+                	<li><a href=""><img src="" alt="" />Tool 1</a></li>
+                	<li><a href=""><img src="" alt="" />Tool 2</a></li>
+                	<li><a href=""><img src="" alt="" />Tool 3</a></li>
+                </ul>
+                </article>
+                <article>
+                <h3>Category</h3>
+                <ul>
+                	<li><a href=""><img src="" alt="" />Tool 1</a></li>
+                	<li><a href=""><img src="" alt="" />Tool 2</a></li>
+                	<li><a href=""><img src="" alt="" />Tool 3</a></li>
+                	<li><a href=""><img src="" alt="" />Tool 4</a></li>
+                	<li><a href=""><img src="" alt="" />Tool 5</a></li>
+                	<li><a href=""><img src="" alt="" />Tool 6</a></li>
+                	<li><a href=""><img src="" alt="" />Tool 7</a></li>
+                	<li><a href=""><img src="" alt="" />Tool 8</a></li>
+                	<li><a href=""><img src="" alt="" />Tool 9</a></li>
+                </ul>
+                </article>
+            </div>
+            <div class="col-lg-3">
+                <article>
+                <h3>Category</h3>
+                <ul>
+                	<li><a href=""><img src="" alt="" />Tool 1</a></li>
+                	<li><a href=""><img src="" alt="" />Tool 2</a></li>
+                	<li><a href=""><img src="" alt="" />Tool 3</a></li>
+                	<li><a href=""><img src="" alt="" />Tool 4</a></li>
+                </ul>
+                </article>
+                <article>
+                <h3>Category</h3>
+                <ul>
+                	<li><a href=""><img src="" alt="" />Tool 1</a></li>
+                	<li><a href=""><img src="" alt="" />Tool 2</a></li>
+                	<li><a href=""><img src="" alt="" />Tool 3</a></li>
+                	<li><a href=""><img src="" alt="" />Tool 4</a></li>
+                </ul>
+                </article>
             </div>
         </div>
     </div>
