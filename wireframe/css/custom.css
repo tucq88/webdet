@@ -1,0 +1,33 @@
+@CHARSET "UTF-8";
+/*MENU BEGIN*/
+
+
+/*MENU END*/
+
+
+/*CATEGORY BEGIN*/
+.category-block .panel-body {
+    padding: 0;
+}
+
+.tool-favicon {
+    max-width: 24px;
+    max-height: 24px;
+    margin-right: 10px;
+    border-radius: 5px
+}
+/*CATEGORY END*/
+
+/*SUGGEST BEGIN*/
+.suggest-block {
+    margin: 30px 0;
+}
+/*SUGGEST END*/
+
+/*MEDIA QUERIES BEGIN*/
+@media (min-width: 768px) {
+    #top-menu {
+        padding-left: 0;
+    }    
+}
+/*MEDIA QUERIES END*/
