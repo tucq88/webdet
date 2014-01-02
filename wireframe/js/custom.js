@@ -31,11 +31,36 @@ $(document).ready(function() {
 		
 		//Collapse menu
 		//$('#top-menu').collapse('hide');
+		
+		//Filter block
+		/**
+		 * Cheating - Need find another way to 
+		 * setup layout similar to Pinterest
+		 */
+		var filter = $(this).attr('data-filter');
+		/*if (filter == 'all') {
+			$('.category-block').fadeIn();
+		} else {
+			$('.category-block').not('.' + filter).fadeOut();
+			$('.' + filter).fadeIn();
+		}*/
 	});
 	
 	
 	$('a.suggest-btn').click(function(e) {
 		e.preventDefault();
 		$('#suggest-tool').modal();
+	});
+	
+	
+	//Display + filter
+	//@todo: Not complete yet
+	$('#tool-container').filteredMasonry({
+		itemSelector: '.category-block',
+		filtersGroupSelector:'.menu-item',
+	});
+	
+	$('#tool-container').masonry({
+		itemSelector: '.category-block',
 	});
 });
