@@ -6,12 +6,12 @@
 		$container.find(options.itemSelector).each(function(){
 			cache.push($(this));
 		});
-		console.log(options);
 		$container.masonry(options);
 	 }
 	 //filter items in cache
 	 var filterItems = function(selector){
 		var result=[];
+		
 		$(cache).each(function(item){
 			if(cache[item].is(selector)){
 				result.push(cache[item]);

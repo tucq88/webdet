@@ -3,9 +3,7 @@ $(document).ready(function() {
 	
 	$('#current-menu').html($('#top-menu li.active > a').text());
 	
-	$('a.list-group-item').click(function(e) {
-		e.preventDefault();
-		
+	$('#tool-container').on('click', 'a.list-group-item', function() {
 		$.ajax({
 			type: "POST",
 				url: "request.php",
@@ -31,19 +29,6 @@ $(document).ready(function() {
 		
 		//Collapse menu
 		//$('#top-menu').collapse('hide');
-		
-		//Filter block
-		/**
-		 * Cheating - Need find another way to 
-		 * setup layout similar to Pinterest
-		 */
-		var filter = $(this).attr('data-filter');
-		/*if (filter == 'all') {
-			$('.category-block').fadeIn();
-		} else {
-			$('.category-block').not('.' + filter).fadeOut();
-			$('.' + filter).fadeIn();
-		}*/
 	});
 	
 	
@@ -54,13 +39,8 @@ $(document).ready(function() {
 	
 	
 	//Display + filter
-	//@todo: Not complete yet
 	$('#tool-container').filteredMasonry({
 		itemSelector: '.category-block',
-		filtersGroupSelector:'.menu-item',
-	});
-	
-	$('#tool-container').masonry({
-		itemSelector: '.category-block',
+		filtersGroupSelector: '.menu-item',
 	});
 });
