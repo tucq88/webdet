@@ -43,9 +43,9 @@
             </ul>
         </div>
     </nav>
-    <div id="main-content" class="container">
+    <div id="main-content">
         <div id="tool-container" class="row">
-            <article class="category-block col-lg-3 cate-4">
+            <article class="category-block col-lg-3 col-md-6 col-xs-12 cate-4">
                 <div class="panel panel-default"> 
                     <div class="panel-heading">Category</div>
                     <div class="panel-body list-group">
@@ -56,7 +56,7 @@
                     </div>
                 </div>
             </article>
-            <article class="category-block col-lg-3 cate-2">
+            <article class="category-block col-lg-3 col-md-6 col-xs-12 cate-2">
                 <div class="panel panel-default">
                     <div class="panel-heading">Category</div>
                     <div class="panel-body list-group">
@@ -68,15 +68,6 @@
                         <a href="javascript:void(0)" class="list-group-item"><img data-src="holder.js/24x24/sky" alt="" class="tool-favicon"/>Lorem ipsum dolor</a>
                         <a href="javascript:void(0)" class="list-group-item"><img data-src="holder.js/24x24/sky" alt="" class="tool-favicon"/>Lorem ipsum dolor</a>
                         <a href="javascript:void(0)" class="list-group-item"><img data-src="holder.js/24x24/sky" alt="" class="tool-favicon"/>Lorem ipsum dolor</a>
-                    </div>
-                </div>
-            </article>
-            <article class="category-block col-lg-3 cate-1">
-                <div class="panel panel-default">
-                    <div class="panel-heading">Category</div>
-                    <div class="panel-body list-group">
-                        <a href="javascript:void(0)" class="list-group-item"><img data-src="holder.js/24x24/sky" alt="" class="tool-favicon"/>Lorem ipsum dolor</a>
-                        <a href="javascript:void(0)" class="list-group-item"><img data-src="holder.js/24x24/sky" alt="" class="tool-favicon"/>Lorem ipsum dolor</a>
                         <a href="javascript:void(0)" class="list-group-item"><img data-src="holder.js/24x24/sky" alt="" class="tool-favicon"/>Lorem ipsum dolor</a>
                         <a href="javascript:void(0)" class="list-group-item"><img data-src="holder.js/24x24/sky" alt="" class="tool-favicon"/>Lorem ipsum dolor</a>
                         <a href="javascript:void(0)" class="list-group-item"><img data-src="holder.js/24x24/sky" alt="" class="tool-favicon"/>Lorem ipsum dolor</a>
@@ -84,31 +75,7 @@
                     </div>
                 </div>
             </article>
-            <article class="category-block col-lg-3 cate-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading">Category</div>
-                    <div class="panel-body list-group">
-                        <a href="javascript:void(0)" class="list-group-item"><img data-src="holder.js/24x24/sky" alt="" class="tool-favicon"/>Lorem ipsum dolor</a>
-                        <a href="javascript:void(0)" class="list-group-item"><img data-src="holder.js/24x24/sky" alt="" class="tool-favicon"/>Lorem ipsum dolor</a>
-                        <a href="javascript:void(0)" class="list-group-item"><img data-src="holder.js/24x24/sky" alt="" class="tool-favicon"/>Lorem ipsum dolor</a>
-                        <a href="javascript:void(0)" class="list-group-item"><img data-src="holder.js/24x24/sky" alt="" class="tool-favicon"/>Lorem ipsum dolor</a>
-                        <a href="javascript:void(0)" class="list-group-item"><img data-src="holder.js/24x24/sky" alt="" class="tool-favicon"/>Lorem ipsum dolor</a>
-                    </div>
-                </div>
-            </article>
-            <article class="category-block col-lg-3 cate-3">
-                <div class="panel panel-default">
-                    <div class="panel-heading">Category</div>
-                    <div class="panel-body list-group">
-                        <a href="javascript:void(0)" class="list-group-item"><img data-src="holder.js/24x24/sky" alt="" class="tool-favicon"/>Lorem ipsum dolor</a>
-                        <a href="javascript:void(0)" class="list-group-item"><img data-src="holder.js/24x24/sky" alt="" class="tool-favicon"/>Lorem ipsum dolor</a>
-                        <a href="javascript:void(0)" class="list-group-item"><img data-src="holder.js/24x24/sky" alt="" class="tool-favicon"/>Lorem ipsum dolor</a>
-                        <a href="javascript:void(0)" class="list-group-item"><img data-src="holder.js/24x24/sky" alt="" class="tool-favicon"/>Lorem ipsum dolor</a>
-                        <a href="javascript:void(0)" class="list-group-item"><img data-src="holder.js/24x24/sky" alt="" class="tool-favicon"/>Lorem ipsum dolor</a>
-                    </div>
-                </div>
-            </article>
-            <article class="category-block col-lg-3 cate-2">
+            <article class="category-block col-lg-3 col-md-6 col-xs-12 cate-1">
                 <div class="panel panel-default">
                     <div class="panel-heading">Category</div>
                     <div class="panel-body list-group">
@@ -121,7 +88,44 @@
                     </div>
                 </div>
             </article>
-            <article class="category-block col-lg-3 cate-2">
+            <article class="category-block col-lg-3 col-md-6 col-xs-12 cate-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Category</div>
+                    <div class="panel-body list-group">
+                        <a href="javascript:void(0)" class="list-group-item"><img data-src="holder.js/24x24/sky" alt="" class="tool-favicon"/>Lorem ipsum dolor</a>
+                        <a href="javascript:void(0)" class="list-group-item"><img data-src="holder.js/24x24/sky" alt="" class="tool-favicon"/>Lorem ipsum dolor</a>
+                        <a href="javascript:void(0)" class="list-group-item"><img data-src="holder.js/24x24/sky" alt="" class="tool-favicon"/>Lorem ipsum dolor</a>
+                        <a href="javascript:void(0)" class="list-group-item"><img data-src="holder.js/24x24/sky" alt="" class="tool-favicon"/>Lorem ipsum dolor</a>
+                        <a href="javascript:void(0)" class="list-group-item"><img data-src="holder.js/24x24/sky" alt="" class="tool-favicon"/>Lorem ipsum dolor</a>
+                    </div>
+                </div>
+            </article>
+            <article class="category-block col-lg-3 col-md-6 col-xs-12 cate-3">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Category</div>
+                    <div class="panel-body list-group">
+                        <a href="javascript:void(0)" class="list-group-item"><img data-src="holder.js/24x24/sky" alt="" class="tool-favicon"/>Lorem ipsum dolor</a>
+                        <a href="javascript:void(0)" class="list-group-item"><img data-src="holder.js/24x24/sky" alt="" class="tool-favicon"/>Lorem ipsum dolor</a>
+                        <a href="javascript:void(0)" class="list-group-item"><img data-src="holder.js/24x24/sky" alt="" class="tool-favicon"/>Lorem ipsum dolor</a>
+                        <a href="javascript:void(0)" class="list-group-item"><img data-src="holder.js/24x24/sky" alt="" class="tool-favicon"/>Lorem ipsum dolor</a>
+                        <a href="javascript:void(0)" class="list-group-item"><img data-src="holder.js/24x24/sky" alt="" class="tool-favicon"/>Lorem ipsum dolor</a>
+                    </div>
+                </div>
+            </article>
+            <article class="category-block col-lg-3 col-md-6 col-xs-12 cate-2">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Category</div>
+                    <div class="panel-body list-group">
+                        <a href="javascript:void(0)" class="list-group-item"><img data-src="holder.js/24x24/sky" alt="" class="tool-favicon"/>Lorem ipsum dolor</a>
+                        <a href="javascript:void(0)" class="list-group-item"><img data-src="holder.js/24x24/sky" alt="" class="tool-favicon"/>Lorem ipsum dolor</a>
+                        <a href="javascript:void(0)" class="list-group-item"><img data-src="holder.js/24x24/sky" alt="" class="tool-favicon"/>Lorem ipsum dolor</a>
+                        <a href="javascript:void(0)" class="list-group-item"><img data-src="holder.js/24x24/sky" alt="" class="tool-favicon"/>Lorem ipsum dolor</a>
+                        <a href="javascript:void(0)" class="list-group-item"><img data-src="holder.js/24x24/sky" alt="" class="tool-favicon"/>Lorem ipsum dolor</a>
+                        <a href="javascript:void(0)" class="list-group-item"><img data-src="holder.js/24x24/sky" alt="" class="tool-favicon"/>Lorem ipsum dolor</a>
+                    </div>
+                </div>
+            </article>
+            <article class="category-block col-lg-3 col-md-6 col-xs-12 cate-2">
                 <div class="panel panel-default">
                     <div class="panel-heading">Category</div>
                     <div class="panel-body list-group">
@@ -131,7 +135,7 @@
                     </div>
                 </div>
             </article>
-            <article class="category-block col-lg-3 cate-3">
+            <article class="category-block col-lg-3 col-md-6 col-xs-12 cate-3">
                 <div class="panel panel-default">
                     <div class="panel-heading">Category</div>
                     <div class="panel-body list-group">
@@ -145,7 +149,7 @@
                     </div>
                 </div>
             </article>
-            <article class="category-block col-lg-3 cate-2">
+            <article class="category-block col-lg-3 col-md-6 col-xs-12 cate-2">
                 <div class="panel panel-default">
                     <div class="panel-heading">Category</div>
                     <div class="panel-body list-group">
@@ -155,7 +159,7 @@
                     </div>
                 </div>
             </article>
-            <article class="category-block col-lg-3 cate-2">
+            <article class="category-block col-lg-3 col-md-6 col-xs-12 cate-2">
                 <div class="panel panel-default">
                     <div class="panel-heading">Category</div>
                     <div class="panel-body list-group">
@@ -165,7 +169,37 @@
                     </div>
                 </div>
             </article>
-            <article class="category-block col-lg-3 cate-2">
+            <article class="category-block col-lg-3 col-md-6 col-xs-12 cate-2">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Category</div>
+                    <div class="panel-body list-group">
+                        <a href="javascript:void(0)" class="list-group-item"><img data-src="holder.js/24x24/sky" alt="" class="tool-favicon"/>Lorem ipsum dolor</a>
+                        <a href="javascript:void(0)" class="list-group-item"><img data-src="holder.js/24x24/sky" alt="" class="tool-favicon"/>Lorem ipsum dolor</a>
+                        <a href="javascript:void(0)" class="list-group-item"><img data-src="holder.js/24x24/sky" alt="" class="tool-favicon"/>Lorem ipsum dolor</a>
+                        <a href="javascript:void(0)" class="list-group-item"><img data-src="holder.js/24x24/sky" alt="" class="tool-favicon"/>Lorem ipsum dolor</a>
+                        <a href="javascript:void(0)" class="list-group-item"><img data-src="holder.js/24x24/sky" alt="" class="tool-favicon"/>Lorem ipsum dolor</a>
+                        <a href="javascript:void(0)" class="list-group-item"><img data-src="holder.js/24x24/sky" alt="" class="tool-favicon"/>Lorem ipsum dolor</a>
+                        <a href="javascript:void(0)" class="list-group-item"><img data-src="holder.js/24x24/sky" alt="" class="tool-favicon"/>Lorem ipsum dolor</a>
+                        <a href="javascript:void(0)" class="list-group-item"><img data-src="holder.js/24x24/sky" alt="" class="tool-favicon"/>Lorem ipsum dolor</a>
+                        <a href="javascript:void(0)" class="list-group-item"><img data-src="holder.js/24x24/sky" alt="" class="tool-favicon"/>Lorem ipsum dolor</a>
+                        <a href="javascript:void(0)" class="list-group-item"><img data-src="holder.js/24x24/sky" alt="" class="tool-favicon"/>Lorem ipsum dolor</a>
+                        <a href="javascript:void(0)" class="list-group-item"><img data-src="holder.js/24x24/sky" alt="" class="tool-favicon"/>Lorem ipsum dolor</a>
+                    </div>
+                </div>
+            </article>
+            <article class="category-block col-lg-3 col-md-6 col-xs-12 cate-2">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Category</div>
+                    <div class="panel-body list-group">
+                        <a href="javascript:void(0)" class="list-group-item"><img data-src="holder.js/24x24/sky" alt="" class="tool-favicon"/>Lorem ipsum dolor</a>
+                        <a href="javascript:void(0)" class="list-group-item"><img data-src="holder.js/24x24/sky" alt="" class="tool-favicon"/>Lorem ipsum dolor</a>
+                        <a href="javascript:void(0)" class="list-group-item"><img data-src="holder.js/24x24/sky" alt="" class="tool-favicon"/>Lorem ipsum dolor</a>
+                        <a href="javascript:void(0)" class="list-group-item"><img data-src="holder.js/24x24/sky" alt="" class="tool-favicon"/>Lorem ipsum dolor</a>
+                        <a href="javascript:void(0)" class="list-group-item"><img data-src="holder.js/24x24/sky" alt="" class="tool-favicon"/>Lorem ipsum dolor</a>
+                    </div>
+                </div>
+            </article>
+            <article class="category-block col-lg-3 col-md-6 col-xs-12 cate-2">
                 <div class="panel panel-default">
                     <div class="panel-heading">Category</div>
                     <div class="panel-body list-group">
