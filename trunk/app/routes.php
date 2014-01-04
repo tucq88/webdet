@@ -15,3 +15,9 @@ Route::get('/', function()
 {
 	return View::make('hello');
 });
+Route::get('users', function() 
+{
+    return 'Hello User!';
+});
+
+Route::get('other', 'UserController@index');
