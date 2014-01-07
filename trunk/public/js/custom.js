@@ -5,10 +5,10 @@ $(document).ready(function() {
 	
 	$('#tool-container').on('click', 'a.list-group-item', function() {
 		$.ajax({
-			type: "POST",
-				url: "request.php",
+				type: "get",
+				url: "../suggest/detail",
 				data: { name: "John", location: "Boston" }
-			})
+			})	
 			.done(function(result) {
 				var result = JSON.parse(result);
 				$('#tool-detail h4.modal-title').html(result.title);
@@ -35,6 +35,30 @@ $(document).ready(function() {
 	$('a.suggest-btn').click(function(e) {
 		e.preventDefault();
 		$('#suggest-tool').modal();
+	});
+	
+	$('.btn-submit-suggest').click(function(e) {
+		$(this).addClass('disabled');
+		$('#bg-loader').show();
+		$.ajax({
+			type: "post",
+			url: "../suggest/request",
+			data: { name: "John", location: "Boston" },
+			beforeSend: function() {
+				//Load the image
+			}
+			
+		})	
+		.done(function(result) {
+			$('#bg-loader').hide();
+			$('.flip-container').addClass('flip');
+		});
+	});
+	
+	$('.btn-reset-modal').click(function(e) {
+		$('.btn-submit-suggest').removeClass('disabled');
+		$('#suggest-form')[0].reset();
+		$('.flip-container').removeClass('flip');
 	});
 	
 	

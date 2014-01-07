@@ -10,14 +10,8 @@
 | and give it the Closure to execute when that URI is requested.
 |
 */
+Route::get('/', 'HomeController@index'); 
+Route::get('home/index', 'HomeController@index');
 
-Route::get('/', function()
-{
-	return View::make('hello');
-});
-Route::get('users', function() 
-{
-    return 'Hello User!';
-});
-
-Route::get('other', 'UserController@index');
+//API
+Route::controller('suggest', 'SuggestController');

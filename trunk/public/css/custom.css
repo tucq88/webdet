@@ -33,7 +33,7 @@
     padding: 0;
 }
 
-.tool-favicon {
+.tool-favicon { 
     max-width: 24px;
     max-height: 24px;
     margin-right: 10px;
@@ -57,18 +57,98 @@
 
 
 
-/*TESTING*/
-.tool-pack {
-    margin:0;
-    padding: 0;
+/* FLIP BEGIN */
+.flip-panel {
+    background-color: #fff;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    border-radius: 6px;
 }
-.tool-pack li {
-    list-style: none;
-    float: left;
-    width: 25%;
+.flip-container .front {
+    float: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 900;
+    width: inherit;
+    height: inherit;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    text-align: center;
+    
+    -webkit-transform: rotateX(0deg) rotateY(0deg);
+    -moz-transform: rotateX(0deg) rotateY(0deg);
+    -ms-transform: rotateX(0deg) rotateY(0deg);
+    transform: rotateX(0deg) rotateY(0deg);
+    
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    
+    /* -- transition is the magic sauce for animation -- */
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
 }
 
-
-.tool-pack .panel-body {
-    padding: 0;
+.flip-container.flip .front {
+    z-index: 900;
+    border-color: #eee;
+    
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    transform: rotateY(180deg);
 }
+
+.flip-container .back {
+    float: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 800;
+    width: inherit;
+    height: inherit;
+    border: 1px solid #ccc;
+    
+    /* setting to 180 causes an unnatural-looking half-flip */
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    
+    /* -- transition is the magic sauce for animation -- */
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.flip-container.flip .back {
+    z-index: 1000;
+    
+    -webkit-transform: rotateX(0deg) rotateY(0deg);
+    -moz-transform: rotateX(0deg) rotateY(0deg);
+    -ms-transform: rotateX(0deg) rotateY(0deg);
+    transform: rotateX(0deg) rotateY(0deg);
+}
+
+/* FLIP END */

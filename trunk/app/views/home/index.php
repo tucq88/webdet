@@ -5,8 +5,6 @@
     <p class="lead">
         <small>A tiny introduction</small>
     </p>
-    <h1><?php echo $var?></h1>
-    <h1><?php echo $var2?></h1>
 </header>
 <nav class="navbar navbar-default">
     <div class="navbar-header visible-xs">
@@ -81,33 +79,42 @@
     <div class="modal fade" id="suggest-tool">
         <div class="modal-dialog">
             <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title">Suggest New Tool</h4>
+                <div class="flip-container">
+                    <div class="flip-panel front">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-title">Suggest New Tool</h4>
+                        </div>
+                        <div class="modal-body">
+                            <form action="get" id="suggest-form">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae soluta autem enim praesentium ut amet est! Nostrum aperiam quos error ipsum ducimus rerum ex quisquam assumenda dolore rem itaque ut!</p><br>
+                                <div class="form-group"><input class="form-control" autofocus="autofocus" placeholder="URL"/></div>
+                                <div class="form-group"><input class="form-control" placeholder="Title"/></div>
+                                <div class="form-group"><textarea rows="10" cols="" class="form-control" id="suggest-description" placeholder="Description"></textarea></div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <button type="submit" class="btn btn-primary btn-submit-suggest" >Submit</button>
+                        </div>
+                    </div>
+                    <div class="flip-panel back">
+                        <div class="modal-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quas accusantium eligendi atque itaque est velit tempore officiis aperiam vel aut sunt nulla veritatis officia blanditiis magnam soluta! Ratione corrupti.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quas accusantium eligendi atque itaque est velit tempore officiis aperiam vel aut sunt nulla veritatis officia blanditiis magnam soluta! Ratione corrupti.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quas accusantium eligendi atque itaque est velit tempore officiis aperiam vel aut sunt nulla veritatis officia blanditiis magnam soluta! Ratione corrupti.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quas accusantium eligendi atque itaque est velit tempore officiis aperiam vel aut sunt nulla veritatis officia blanditiis magnam soluta! Ratione corrupti.</p>
+                            <hr>
+                            <div class="text-center">
+                                <a href="javascript:void(0)" class="btn btn-default btn-reset-modal" data-dismiss="modal">Close</a>
+                            </div>  
+                        </div>
+                    </div>
                 </div>
-                <div class="modal-body">
-                    <form action="get" id="suggest-form">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae soluta autem enim praesentium ut amet est! Nostrum aperiam quos error ipsum ducimus rerum ex quisquam assumenda dolore rem itaque ut!</p>
-                        <br>
-                        <div class="form-group">
-<!--                                 <label for="">URL</label> -->
-                            <input class="form-control" autofocus="autofocus" placeholder="URL"/>
-                        </div>
-                        
-                        <div class="form-group">
-<!--                                 <label for="">Title</label> -->
-                            <input class="form-control" placeholder="Title"/>
-                        </div>
-                        
-                        <div class="form-group">
-<!--                                 <label for="">Description</label> -->
-                            <textarea rows="10" cols="" class="form-control" id="suggest-description" placeholder="Description"></textarea>
-                        </div>
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    <button type="submit" class="btn btn-primary" >Submit</button>
+                <div style="width: 100%; height: 100%;background-color: #ccc; display: none;" id="bg-loader">
+                    <div style="top: 50%; right: 50%;position: absolute;">
+                        <img src="img/ajax-loader.gif" alt="ajax-loader"/>
+                    </div>
                 </div>
             </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
